@@ -1,0 +1,10 @@
+Package: phyloch
+Version: 1.5-5
+Date: 2013-09-04
+Title: Tools for phylogenetics and taxonomy
+Author: Christoph Heibl <christoph.heibl@gmx.net>
+Maintainer: Christoph Heibl <christoph.heibl@gmx.net>
+Depends: ape, colorspace, XML
+Description: This package is intended as a (modest) companion to the great \code{ape} package, which it extends in two dimensions. First, it provides a series of wrappers for commonly used software packages and second, it contains some more tools for plotting of phylogentic trees.
+License: GPL (>= 2)
+Packaged: 2013-09-04 14:04:25 UTC; Stoffi

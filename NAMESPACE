@@ -1,0 +1,5 @@
+exportPattern(".+")
+
+import(ape)
+importFrom(colorspace, sequential_hcl)
+importFrom(XML, xmlNode, addChildren, saveXML)

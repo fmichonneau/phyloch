@@ -1,0 +1,51 @@
+     
+      CHANGES IN PHYLOCH VERSION 1.5-5
+
+    o Minor changes and recompilation for R 3.0.1.
+
+
+      CHANGES IN PHYLOCH VERSION 1.5-4
+
+    o Minor changes.
+
+
+      CHANGES IN PHYLOCH VERSION 1.5-3
+    
+    o Minor changes and recompilation for R 3.0.0.		  
+
+
+      CHANGES IN PHYLOCH VERSION 1.5-2
+    
+
+IMPROVED FEATURES
+    o box.clades() and box.tips() have been rewritten and work more
+      cleanly now. Yet, they still support only directions 
+      'rightwards' and 'leftwards' in phylograms. The argument 'align'
+      in box.tips() has now an additional possible value ("tipwise"), 
+      which now is the default.
+
+
+      CHANGES IN PHYLOCH VERSION 1.5-1
+  	
+
+NEW FEATURES
+    o Argument 'quiet' adde to mafft() and c.genes() to be able
+      to suppress screen output by both funtions. 
+
+
+      CHANGES IN PHYLOCH VERSION 1.5-0
+		
+
+BUG FIXES
+    o fixNodes() did not work on some ladderized trees. This is
+      (hopefully) now fixed, but users are still encouraged to 
+      report any peculiarities. A this stage it might still be 
+      good to doublecheck if a unknown tree is manipulated for the 
+      first time. (Thanks to Ingo Michalak and Johan Nylander for
+      bug report.)  
+
+NEW FEATURES
+    o This ChangeLog is included.
+    o The stratigraphic chart 2012 is provided for axisGeo();
+      see ?strat2012 for details. (Thanks to Lars Nauheimer for 
+      providing the data frame).
