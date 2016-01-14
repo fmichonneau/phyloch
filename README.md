@@ -1,7 +1,8 @@
 ## phyloch
 
 This repository is simply to make available via GitHub the content of the
-`phyloch` package written by Christoph Heibl. This is mostly intended to
+`phyloch` package written by Christoph Heibl (available 
+[here](http://www.christophheibl.de/Rpackages.html)). This is mostly intended to
 satisfy the dependencies of my packages and papers.
 
 *I am not maintaining the code in this repository. If you find bugs, or have
